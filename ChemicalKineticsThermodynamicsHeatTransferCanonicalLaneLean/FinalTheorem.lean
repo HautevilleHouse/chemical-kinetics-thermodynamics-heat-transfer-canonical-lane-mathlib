@@ -1,0 +1,13 @@
+import ChemicalKineticsThermodynamicsHeatTransferCanonicalLaneLean.HeatTransferProcesses
+
+namespace HautevilleHouse
+namespace ChemicalKineticsThermodynamicsHeatTransferCanonicalLaneLean
+
+def ConstrainedChemicalKineticsThermodynamicsHeatTransferClosure (A : AdmissibleClass) : Prop :=
+  bridgeClosed A ∧ gateClosed A
+
+theorem constrained_chemical_kinetics_thermodynamics_heat_transfer_endgame (A : AdmissibleClass) : ConstrainedChemicalKineticsThermodynamicsHeatTransferClosure A :=
+  And.intro (bridge_from_admissible_class A) (gate_from_admissible_class A)
+
+end ChemicalKineticsThermodynamicsHeatTransferCanonicalLaneLean
+end HautevilleHouse

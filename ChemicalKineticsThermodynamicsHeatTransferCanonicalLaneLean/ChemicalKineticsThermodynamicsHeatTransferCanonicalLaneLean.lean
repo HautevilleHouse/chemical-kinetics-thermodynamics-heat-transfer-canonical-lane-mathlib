@@ -1,0 +1,17 @@
+import ChemicalKineticsThermodynamicsHeatTransferCanonicalLaneLean.ReactionRateTheory
+import ChemicalKineticsThermodynamicsHeatTransferCanonicalLaneLean.TransitionStateTheory
+import ChemicalKineticsThermodynamicsHeatTransferCanonicalLaneLean.ThermodynamicsFundamentals
+import ChemicalKineticsThermodynamicsHeatTransferCanonicalLaneLean.HeatTransferProcesses
+import ChemicalKineticsThermodynamicsHeatTransferCanonicalLaneLean.ChemicalEquilibrium
+
+namespace HautevilleHouse
+namespace ChemicalKineticsThermodynamicsHeatTransferCanonicalLaneLean
+
+def sourceRepository : String :=
+  "chemical-kinetics-thermodynamics-heat-transfer-canonical-lane"
+
+def sourceDescription : String :=
+  "Constrained admissible bridge for chemical kinetics, thermodynamics, heat transfer: rate laws, transition state theory, Gibbs free energy, equilibrium constants, heat conduction, and coupled transport."
+
+end ChemicalKineticsThermodynamicsHeatTransferCanonicalLaneLean
+end HautevilleHouse
